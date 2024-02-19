@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./mobile.css"> 
+    <style>
+      h5{
+        text-align: center;
+      }
+      .card
+      {
+        align-items: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        border-radius: 40px;
+        background-color: rgb(20, 18, 18);
+      }
+      .card-img-top
+        {
+          height: 150px;
+          width: 100px;
+          margin-top: 10px;
+          transition: width 1s ease-in-out; 
+        }
+        .card-img-top:hover
+        {
+          width: 130px;
+        }
+      .logo
+      {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+      }
+      #footer
+      {
+        background-image: url(./car2.jpg);
+        background-attachment: fixed;
+        color: white;
+      }
+    #footer
+    {
+      /* background-color: black; */
+      margin-top: 30px;
+    }
+    #media
+    {
+      margin-top: 8px;
+      color: white;
+      text-align: center;
+    }
+    i
+    {
+        color: yellow;
+        margin-top: 10px;
+    }
+    i:hover
+    {
+      color: white;
+    }
+    #icons
+    {
+      justify-content: space-around;
+    }
+    #offer
+    {
+      text-align: center;
+      margin-top: 80px;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: large;
+    }
+    #adds
+    {
+      border-bottom-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+      box-shadow: 10px 10px whitesmoke;
+      background-image: linear-gradient(rgb(228, 171, 55),rgb(226, 205, 138));
+      background-attachment: fixed;
+    }
+  #aboutpara
+    {
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 300;
+      font-size: medium;
+    }
+  #mobile
+    {
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 600;
+      color: black;
+    }
+  #aboutimage
+    {
+      justify-content: center;
+      align-items: center;
+    }
+  .aboutus
+    {
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+    } 
+    #navbars
+    {
+      color: black;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: large;
+    }
+    #navbars:hover
+    {
+      color: white;
+    }
+    #shopname
+    {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: x-large;
+    }
+    #cards
+    {
+      margin: 0;
+      padding: 0;
+    }
+    .rate
+    {
+      display: flex;
+      justify-content: center;
+      color: white;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: large;
+      font-weight: bold;
+    }
+    </style>  
+  </head>
+<body class="back bg-white">
+  <!-- NAV BAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
+    <div class="container-fluid">
+      <h2 class="navbar-brand" id="shopname"><img class="logo" src="./apple.jpg">Viswai Mobiles</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" id="navbars">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./about.html" id="navbars">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./collections.html" id="navbars">Collections</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./mobcon.html" id="navbars">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+      <!-- SLIDE -->
+      <div id="carouselExampleCaptions" class="carousel slide w-100" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner ">
+          <div class="carousel-item active ">
+            <img src="./car2.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5>Viswai Mobile</h5>
+              <p>Welcomes You</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./caro.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5>Viswai Mobile</h5>
+              <p>Welcomes You</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./car3.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5>Viswai Mobile</h5>
+              <p>Welcomes You</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> 
+      <!-- ADDS -->
+      <div class="container" style="margin-top: 50px;">
+        <div class="row" id="adds">
+          <div class="col" id="offer">
+            <h1>
+              Discount
+            </h1>
+            <p>Get 30% Offer</p>
+            <span>Today Only</span>
+          </div>
+          <div class="col">
+            <img src="./vivo v27.jpg" alt="..." class="add h-100">
+          </div>
+        </div>
+      </div>
+      <!-- CARDS -->
+      <h3 style="text-align: center; margin-top: 30px;">Latest Models</h3>
+      <br>
+      <div class="row row-cols-1 row-cols-md-3 g-3 m-0" id="cards">
+        <div class="col">
+          <div class="card">
+            <img src="./rednote11.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-white">Redmi Note11</h5>
+              <span class="rate">$150</span>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./i15.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-white">i15</h5>
+              <span class="rate">$160</span>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./sam.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-white">Galaxy 15 5G</h5>
+              <span class="rate">$100</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row row-cols-1 row-cols-md-3 g-3" style="margin-top: 30px;" id="cards">
+        <div class="col">
+          <div class="card">
+            <img src="./re11pro+.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-white">Realme 11Pro</h5>
+              <span class="rate">$100</span>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./v23.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-white">VIVO V23 5G</h5>
+              <span class="rate">$120</span>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./oppoa79.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-white">OPPO A79 5G</h5>
+              <span class="rate">$140</span>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- ABOUT -->
+        <div class="container">
+          <h3   class="aboutus" style="margin-top: 100px; text-align: center;">About Us</h3>
+        </div>
+    <div class="container" style="margin-top: 100px;" id="aboutdetails">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex" id="aboutimage">
+          <img src="./about.jpg" alt="..." class="aboutimg w-75 h-100">
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="text-align: center">
+          <h4 id="mobile" style="margin-top: 30px;">Viswai Mobiles</h4>
+          <p id="aboutpara">Mobile phones are used for a variety of purposes, such as keeping in touch with family members, for conducting business, and in order to have access to a telephone in the event of an emergency. Some people carry more than one mobile phone for different purposes, such as for business and personal use. Multiple SIM cards may be used to take advantage of the benefits of different calling plans. For example, a particular plan might provide for cheaper local calls, long-distance calls, international calls, or roaming.</p>
+          <p id="aboutpara">Mobile phones are used for a variety of purposes, such as keeping in touch with family members, for conducting business, and in order to have access to a telephone in the event of an emergency. Some people carry more than one mobile phone for different purposes, such as for business and personal use. Multiple SIM cards may be used to take advantage of the benefits of different calling plans. For example, a particular plan might provide for cheaper local calls, long-distance calls, international calls, or roaming.</p>
+          <p id="aboutpara">Mobile phones are used for a variety of purposes, such as keeping in touch with family members, for conducting business, and in order to have access to a telephone in the event of an emergency. Some people carry more than one mobile phone for different purposes, such as for business and personal use. Multiple SIM cards may be used to take advantage of the benefits of different calling plans. For example, a particular plan might provide for cheaper local calls, long-distance calls, international calls, or roaming.</p>
+        </div>
+      </div>
+    </div>
+    <div class="fixed-bottom" style="text-align: end;">
+      <img src="./scroll.png" alt="..." onclick="topFunction()">
+    </div> 
+  <nav class="navbar navbar-light" id="footer">
+        <div class="container-fluid">
+          <div class="container" id="media">
+            <h4>Social Link</h4>
+          </div>
+          <div class="container d-flex" id="icons">
+            <a href="https://www.instagram.com/"><i class="fa fa-instagram" id="icon"  style="font-size:25px;"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa fa-facebook" id="icon"  style="font-size:25px;"></i></a>
+            <a href="https://www.twitter.com/"><i class="fa fa-twitter" id="icon"  style="font-size:25px;"></i></a>
+          </div>
+        </div>
+  </nav>
+  <script src="./mobilejs.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
